@@ -1,5 +1,14 @@
 # Private Notebook
 
+### Completion Steps
+1. Clone repo
+2. Npm i
+3. Install supabase `npm i @supabase/supabase-js react-router-dom@5`
+4. Update .env file with database/api keys and url
+5. npm start to explore the site and explore the bugs
+
+
+
 ## Demo
 
 [https://alchemy-react-private-notebook.netlify.app](https://alchemy-react-private-notebook.netlify.app)

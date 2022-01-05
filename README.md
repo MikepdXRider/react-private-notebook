@@ -1,12 +1,13 @@
 # Private Notebook
 
-### Completion Steps
+## Completion Steps
 1. Clone repo
-2. Npm i
-3. Install supabase `npm i @supabase/supabase-js react-router-dom@5`
-4. Update .env file with database/api keys and url
-5. npm start to explore the site and explore the bugs
-
+1. Npm i
+1. Install supabase `npm i @supabase/supabase-js react-router-dom@5`
+1. Update .env file with database/api keys and url
+1. npm start to explore the site and explore the bugs
+1. Implement the private router. This is a great resource: [React Router Docs - See line 135](https://v5.reactrouter.com/web/example/auth-workflow) 
+1. 
 
 
 ## Demo

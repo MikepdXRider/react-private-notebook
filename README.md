@@ -7,7 +7,7 @@
 1. Update .env file with database/api keys and url
 1. npm start to explore the site and explore the bugs
 1. Implement the private router. This is a great resource: [React Router Docs - See line 135](https://v5.reactrouter.com/web/example/auth-workflow) 
-1. 
+1. Check live server to make sure implementation is successful
 
 
 ## Demo

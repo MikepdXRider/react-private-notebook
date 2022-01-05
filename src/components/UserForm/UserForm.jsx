@@ -25,6 +25,7 @@ export default function UserForm({
         );
       setLoading(true);
       await onSubmit(email, password);
+      setLoading(false);
     } catch (error) {
       setLoading(false);
       setFormError(error.message);

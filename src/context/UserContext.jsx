@@ -4,10 +4,14 @@ import { getUser } from '../services/users';
 const UserContext = createContext();
 
 const UserProvider = ({ children }) => {
+  // Is this just for initializing? 
+  // OR... When setUser is called, is currentUser called again? 
   const currentUser = getUser();
+  console.log(currentUser);
   const [user, setUser] = useState(
     currentUser ? { id: currentUser.id, email: currentUser.email } : {}
-  );
+    );
+  console.log(user);
 
   const value = useMemo(() => ({ user, setUser }), [user]);
 

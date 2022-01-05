@@ -1,0 +1,20 @@
+.noteList {
+  padding: 0;
+  width: 50%;
+}
+
+.noteListItem {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.noteListItem:nth-child(2n) {
+  background-color: var(--lighter-gray);
+}
+
+.note {
+  display: grid;
+  gap: 0.5rem;
+  grid: 50px / 1.75fr 1fr;
+  align-items: center;
+}

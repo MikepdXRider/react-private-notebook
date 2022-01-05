@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a header with breadcrumbs when signed out 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      <h1>
+        My Notes
+      </h1>
+    </a>
+    <p
+      class="signInStatus"
+    >
+      Not Signed In
+      <a
+        href="/login"
+      >
+        <button>
+          Sign In
+        </button>
+      </a>
+    </p>
+  </header>
+  <nav
+    class="nav"
+  >
+    <a
+      href="/notes"
+    >
+      Notebook
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`should display the user’s email when signed in 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      <h1>
+        My Notes
+      </h1>
+    </a>
+    <p
+      class="signInStatus"
+    >
+      Signed in as test@example.com
+      <button>
+        Sign Out
+      </button>
+    </p>
+  </header>
+  <nav
+    class="nav"
+  >
+    <a
+      href="/notes"
+    >
+      Notebook
+    </a>
+  </nav>
+</div>
+`;

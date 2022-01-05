@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display "Edit" when editing a note 1`] = `
+<div>
+  <nav>
+    <a
+      href="/notes"
+    >
+      Notebook
+    </a>
+    <span>
+       
+      »
+       
+      <a
+        href="/notes/1"
+      >
+        Test Note!
+      </a>
+       
+      » Edit
+    </span>
+  </nav>
+</div>
+`;
+
+exports[`should display a link to the Notebook by default 1`] = `
+<div>
+  <nav>
+    <a
+      href="/notes"
+    >
+      Notebook
+    </a>
+  </nav>
+</div>
+`;
+
+exports[`should display the current note’s title when viewing a note 1`] = `
+<div>
+  <nav>
+    <a
+      href="/notes"
+    >
+      Notebook
+    </a>
+    <span>
+       » 
+      Test Note!
+    </span>
+  </nav>
+</div>
+`;

@@ -1,0 +1,18 @@
+.form {
+  display: grid;
+  gap: 1rem;
+  border: 2px dashed var(--gray);
+  width: 450px;
+}
+
+.formSection {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.input {
+  padding: 7px 10px;
+  border: 1px solid var(--gray);
+  font-size: 1.1rem;
+  font-family: ProximaNova;
+}

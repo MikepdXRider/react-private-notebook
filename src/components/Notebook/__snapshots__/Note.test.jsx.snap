@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display the provided note 1`] = `
+<div>
+  <article>
+    <h2>
+      title
+    </h2>
+    <p
+      class="subtitle"
+    >
+      Created 
+      createdAt
+      <span>
+         — Last updated 
+        updatedAt
+      </span>
+    </p>
+    <a
+      href="/notes/id/edit"
+    >
+      <button>
+        Edit
+      </button>
+    </a>
+    <hr />
+    <p>
+      content
+    </p>
+  </article>
+</div>
+`;

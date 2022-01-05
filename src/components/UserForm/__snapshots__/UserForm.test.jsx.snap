@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a form for signing up/in 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <fieldset
+      class="form"
+    >
+      <legend>
+        Authenticate
+      </legend>
+      <section
+        class="formSection"
+      >
+        <label
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          class="input"
+          id="email"
+          name="email"
+          type="email"
+          value=""
+        />
+      </section>
+      <section
+        class="formSection"
+      >
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          class="input"
+          id="password"
+          name="password"
+          type="password"
+          value=""
+        />
+      </section>
+      <button
+        type="submit"
+      >
+        Authenticate
+      </button>
+      
+    </fieldset>
+  </form>
+</div>
+`;

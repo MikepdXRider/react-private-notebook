@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a list of notes 1`] = `
+<div>
+  <ul
+    aria-label="Notes"
+    class="noteList"
+  >
+    <li
+      class="noteListItem"
+    >
+      <article
+        class="note"
+      >
+        <h4>
+          <a
+            href="/notes/1"
+          >
+            Test note
+          </a>
+        </h4>
+        <p>
+          <a
+            href="/notes/1/edit"
+          >
+            <button
+              aria-label="Edit Test note"
+            >
+              Edit
+            </button>
+          </a>
+           
+          <button
+            aria-label="Delete Test note"
+          >
+            Delete
+          </button>
+        </p>
+      </article>
+    </li>
+  </ul>
+</div>
+`;

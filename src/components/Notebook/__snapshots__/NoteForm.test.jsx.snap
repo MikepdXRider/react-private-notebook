@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should display a form using the props provided as values 1`] = `
+<div>
+  <form
+    class="my-class-name"
+  >
+    <fieldset
+      class="form"
+    >
+      <legend>
+        Test Note Form
+      </legend>
+      <section
+        class="formSection"
+      >
+        <label
+          for="title"
+        >
+          Title
+        </label>
+        <input
+          class="input"
+          id="title"
+          name="title"
+          type="text"
+          value="Test Note"
+        />
+      </section>
+      <section
+        class="formSection"
+      >
+        <label
+          for="content"
+        >
+          Body
+        </label>
+        <textarea
+          class="input"
+          id="content"
+          name="content"
+          rows="7"
+        >
+          This is my note
+        </textarea>
+      </section>
+      <button
+        type="submit"
+      >
+        Save
+      </button>
+    </fieldset>
+  </form>
+</div>
+`;
+
+exports[`should display an empty form when no props provided 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <fieldset
+      class="form"
+    >
+      <legend>
+        Note Form
+      </legend>
+      <section
+        class="formSection"
+      >
+        <label
+          for="title"
+        >
+          Title
+        </label>
+        <input
+          class="input"
+          id="title"
+          name="title"
+          type="text"
+          value=""
+        />
+      </section>
+      <section
+        class="formSection"
+      >
+        <label
+          for="content"
+        >
+          Body
+        </label>
+        <textarea
+          class="input"
+          id="content"
+          name="content"
+          rows="7"
+        />
+      </section>
+      <button
+        type="submit"
+      >
+        Save
+      </button>
+    </fieldset>
+  </form>
+</div>
+`;

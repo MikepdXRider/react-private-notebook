@@ -1,0 +1,29 @@
+.header {
+  display: grid;
+  grid: 50px / 1fr 0.75fr;
+  align-items: center;
+  justify-items: space-around;
+  border-bottom: 2px dashed var(--gray);
+  padding: 10px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: var(--gray);
+  padding: 10px;
+}
+
+.nav a,
+.nav span {
+  color: var(--off-white);
+}
+
+.signInStatus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}

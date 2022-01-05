@@ -1,0 +1,43 @@
+:root {
+  --gray: rgb(51, 51, 51);
+  --light-gray: rgb(120, 120, 120);
+  --lighter-gray: rgb(190, 190, 190);
+  --off-white: rgb(234, 234, 234);
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('assets/fonts/ProximaNova.otf') format('opentype');
+}
+
+body {
+  background-color: var(--off-white);
+  color: var(--gray);
+  font-family: ProximaNova;
+}
+
+a {
+  color: var(--gray);
+}
+
+button {
+  font-family: ProximaNova;
+  background: var(--off-white);
+  border: 1px solid var(--gray);
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
